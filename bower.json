@@ -1,0 +1,37 @@
+{
+  "name": "s-showcaser",
+  "version": "1.0.0",
+  "homepage": "https://github.com/StartPolymer/s-showcaser",
+  "authors": [
+    "The StartPolymer Project Authors (https://github.com/StartPolymer/authors)"
+  ],
+  "description": "Behavior and mixin help integrate the Showcaser library within a Polymer component.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/StartPolymer/s-showcaser.git"
+  },
+  "keywords": [
+    "web-components",
+    "polymer",
+    "behavior",
+    "showcaser"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "webcomponentsjs": "^0.7.21",
+    "web-component-tester": "^4.2.1",
+    "iron-component-page": "PolymerElements/iron-component-page#^1.1.4",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.1.0"
+  },
+  "dependencies": {
+    "polymer": "Polymer#^1.3.0",
+    "showcaser": "latitudegeo/showcaser"
+  }
+}
